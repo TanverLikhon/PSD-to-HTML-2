@@ -1,0 +1,61 @@
+
+body{
+    background-image: url(../img/bg1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+.tlz-logo{
+    max-width: 130px;
+}
+.tlz-border{
+    border: 10px solid #7F8C8D;
+}
+
+h1 {margin-top:50px;
+  display:flex;
+}
+h1:before, h1:after {
+  color:black;
+  content:'';
+  flex:1;
+  border-bottom:groove 2px;
+  margin:auto 0.25em;
+  box-shadow: 0 -1px ;/* ou 0 1px si border-style:ridge */
+}
+.navbar-light .navbar-nav .active > .nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show > .nav-link{
+    background: #33a2ff;
+    color: white;
+}
+.tlz-shad{
+    color: #979797 !important;
+}
+.tlz-bg{
+    background-color: #585858 !important;222222
+}
+.tlz-green{
+    color: green;
+}
+.tlz-bg1{
+    background-color: #222222 !important;
+    color: white !important;
+}
+.tlz-btn{
+    background-color: green !important;
+    color: black;
+}
+.tlz-footer{
+    background-color: #2B2B2B;
+    color:#979797;
+}
+.tlz-slide{
+/*    background-color: black;*/
+
+    background-color:rgba(0, 0, 0, 0.5);
+    color: white;
+    opacity: .5;
+    position: relative;
+
+
+}
